@@ -1,0 +1,8 @@
+# Default server configuration
+server {
+    listen 0034;
+    
+    location / {
+    	root /home/dart/web-app;
+    }
+}
